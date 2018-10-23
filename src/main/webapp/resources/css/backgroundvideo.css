@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+#myVideo{
+          animation: colorBackground 0.5s infinite;
+         -webkit-animation: colorBackground 5s infinite;
+         -moz-animation: colorBackground 5s infinite;
+         -o-animation: colorBackground 0.5s infinite
+}
+  @keyframes colorBackground {
+         0% {
+         background-color: yellowgreen;
+         color: white;
+         }
+         50% {
+         background-color: red;
+         color: yellow;
+         }
+         }
+
+         .myVideo:hover {
+         background: yellow;
+         color: red;
+         }
+         .menu:active {
+         background: green;
+         }
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 260px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+     background-image: linear-gradient(
+        rgba(255,255,255,0.6),
+        rgba(0,0,0,0.6)
+    );
+
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+#myBtn{
+    opacity: 0.9;
+    background-color: #01DF3A;
+}
+.content{
+    padding: 200px 200px 100px;
+}
+.font{
+    font-style: initial;
+    font-color: red;
+}

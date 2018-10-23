@@ -1,0 +1,20 @@
+.navbar-brand {
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+.no-gutters {
+    margin: 2% 30%;
+    width: 500px;
+}
+
+.sign-out {
+    color: red;
+}
+
+.main-jumbo {
+    margin-top: 2%;
+}

@@ -1,0 +1,39 @@
+* {
+    font-weight: bold;
+}
+
+.row {
+    height: 150px;
+    margin: 0;
+}
+
+i {
+    font-size: 160px;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+input {
+    font-family: Lato;
+}
+
+.row-header {
+    height: 150px;
+    width: 100%;
+}
+
+.row-header .col {
+	margin-top: 1%;
+}
+
+.pin-error-msg {
+	color: red;
+	margin: 0;
+	font-weight: 600;
+}
+
+button {
+    width: 100%;
+    margin: 3% 0;
+}

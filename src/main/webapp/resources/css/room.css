@@ -1,0 +1,13 @@
+
+.navbar {
+    justify-content: center;
+}
+
+.join-and-start {
+    width: 30%; 
+    float: left; 
+    background-color: rgb(255, 255, 255); 
+    margin-right: 2%; 
+    margin-left: 5%;
+    border-radius: 5px;
+}
